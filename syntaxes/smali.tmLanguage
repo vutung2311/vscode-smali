@@ -148,7 +148,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^[\s\t]*(\.method)[\s\t]*((?:(?:bridge|varargs|declared-synchronized|public|protected|private|abstract|static|final|synchronized|transient|volatile|native|strictfp|synthetic|enum)[\s\t]+)*)(constructor )?(<init>|<clinit>|(?:[\$\p{L}_\-][\p{L}\d_\$]*))\(((?:[\[]*(?:Z|B|S|C|I|J|F|D|L(?:[\p{L}_\$][\p{L}\d_\$]*(?:/[\p{L}_\$][\p{L}\d_\$]*)*);))*)\)(?:(V)|[\[]*(Z|B|S|C|I|J|F|D)|[\[]*(?:(L)([\p{L}_\$][\p{L}\d_\$]*(?:/[\p{L}_\$][\p{L}\d_\$]*)*)(;)))(?=[\s\t]*(#.*)?$)</string>
+			<string>^[\s\t]*(\.method)[\s\t]*((?:(?:bridge|varargs|declared-synchronized|public|protected|private|abstract|static|final|synchronized|transient|volatile|native|strictfp|synthetic|enum)[\s\t]+)*)(constructor )?(<init>|<clinit>|(?:[\$\p{L}_\-][\p{L}\d_\$\-]*))\(((?:[\[]*(?:Z|B|S|C|I|J|F|D|L(?:[\p{L}_\$][\p{L}\d_\$\-]*(?:\/[\p{L}_\$\-][\p{L}\d_\$\-]*)*);))*)\)(?:(V)|[\[]*(Z|B|S|C|I|J|F|D)|[\[]*(?:(L)([\p{L}_\$\-][\p{L}\d_\$\-]*(?:\/[\p{L}_\$][\p{L}\d_\$\-]*)*)(;)))(?=[\s\t]*(#.*)?$)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
