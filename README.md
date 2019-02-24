@@ -1,1 +1,1 @@
-支持Smali语法高亮的VSCode插件
+Smali syntax highlighter for VS Code
